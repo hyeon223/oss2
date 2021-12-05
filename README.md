@@ -37,7 +37,7 @@
 
 
 
-1) :%s/sublime\|emacs/vim/g : sublime과 emacsdml 문서 전체를 vim으로 교체함(\|는 or을 의미함)
+1) :%s/sublime\|emacs/vim/g : sublime과 emacsdml 문서 전체를 vim으로 교체함( \|는 or을 의미함)
 2) ZZ : 저장 후 종료
 
 

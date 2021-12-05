@@ -15,6 +15,12 @@
 
 
 
+1) G: 파일의 마지막 줄로 이동
+2) W: 단어의 앞으로 이동(단어 시작)
+3) i: 현재 커서의 위치에서 입력모드 전환(Esc키 누르면 입력모드 종료)
+4) ZZ : 저장후 종료
+
+
 ---
 
 
@@ -29,6 +35,10 @@
 ![2](https://user-images.githubusercontent.com/94741432/144711835-d8898879-718f-4b0d-bffa-8a8d0cef3561.jpg)
 
 
+
+
+1) :%s/sublime\|emacs/vim/g : sublime과 emacsdml 문서 전체를 vim으로 교체함(\|는 or을 의미함)
+2) ZZ : 저장후 종료
 
 
 ---
@@ -47,6 +57,18 @@
 
 
 
+1) nG : n번째 줄로 이동
+2) yw: 현재 커서 위치의 단어를 끝까지 복사
+3) O : 커서의 이전행에 입력
+4) b : 
+5) P :
+6) Y :
+7) p :
+8) w :
+9) dw :
+10) ZZ :
+
+
 ---
 
 
@@ -63,6 +85,13 @@
 
 
 
+1) :%s/y1/abs(y1) :
+2) :3s/1/2/g : (즉, :ns/old/new/g  ) 
+3) /k :
+4) r :
+5) ZZ : 종료
+
+
 ---
 
 
@@ -77,4 +106,12 @@
 ![5](https://user-images.githubusercontent.com/94741432/144711864-cfd9cce6-7f6a-4436-9d7f-bcb9edfcffe6.jpg)
 
 
+
+
+1) nG :
+2) yw :
+3) p :
+4) i :
+5) `` :
+6) ZZ :
 
